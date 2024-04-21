@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kopf-operator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kopf-operator
+  template:
+    metadata:
+      labels:
+        app: kopf-operator
+    spec:
+      containers:
+      - name: kopf-operator
+        image: fatihportakalci/schwarz-projekt:1.1
+        ports:
+        - containerPort: 8080
