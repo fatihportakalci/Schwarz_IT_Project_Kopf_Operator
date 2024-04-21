@@ -1,0 +1,1 @@
+# Schwarz_IT_Project_Kopf_Operator
