@@ -1,6 +1,6 @@
 # Schwarz_IT_Project_Kopf_Operator
 
-. Vorbereitung des Python-Skripts
+Vorbereitung des Python-Skripts
 
 1.Nutzung der  Dokumentation auf Kopf Startup Documentation zur Entwicklung des erforderlichen Python-Codes für den Operator
 	- Speichern den Code in einer Datei kopf_operator.py
@@ -15,7 +15,7 @@ RUN pip install -r requirements.txt
 COPY . .
 CMD ["kopf", "run", "kopf_operator.py"]
 
-	- Erstellung auch eine requirements.txt-Datei, die kopf und alle anderen benötigten Bibliotheken enthält.
+Erstellung auch eine requirements.txt-Datei, die kopf und alle anderen benötigten Bibliotheken enthält.
 
 3.Bauen Docker-Image
 
